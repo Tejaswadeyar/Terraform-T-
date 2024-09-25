@@ -44,7 +44,7 @@ resource "aws_instance" "mySql" {
   }
 }
 
-resource "aws_route53_record" "Backend" {
+resource "aws_route53_record" "mySql" {
   zone_id = Z0617737D3YZS676V6I1
   name    = "mysql-dev"
   type    = "A"
